@@ -154,6 +154,7 @@ pipeline {
                 sh """
                 argocd repo add $REPO_URL --username \$GIT_USERNAME --password \$GIT_TOKEN
                 """
+                   }
                 }
             }
         }
